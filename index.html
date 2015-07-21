@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Weather Forecast</title>
+
+    <!-- The stylesheet -->
+    <link href="styles/styles.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playball|Open+Sans+Condensed:300,700" />-->
+
+    <!--[if lt IE 9]>
+          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body onload="">
+
+    <header>
+        <canvas id="logo-animate" height="100" width="200" style="opacity: 0.8;" onclick=" animateLogo();"></canvas>
+        <!--<h1>Weather Forecast</h1>-->
+        <nav>
+        </nav>
+    </header>
+
+
+    <section>
+        <div id="weather">
+
+            <ul id="scroller">
+                <!-- The forecast items will go here -->
+            </ul>
+
+            <div id="weather-by-days">
+                <!-- The forecast items will go here -->
+            </div>
+
+            <a href="#" class="arrow previous">Previous</a>
+            <a href="#" class="arrow next">Next</a>
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Feedback</a></li>
+        </ul>
+    </footer>
+
+    <!-- JavaScript includes - jQuery, moment.js and our own script.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+    <script src="scripts/WeatherJS.js"></script>
+    <script src="scripts/JavaScript.js"></script>
+    <script src="scripts/Animations.js"></script>
+
+</body>
+</html>
